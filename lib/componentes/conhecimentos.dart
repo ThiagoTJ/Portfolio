@@ -17,7 +17,7 @@ class Conhecimentos extends StatelessWidget {
           padding: const EdgeInsets.symmetric(vertical: defaultPadding / 2),
           child: Text(
             'Conhecimentos',
-            style: Theme.of(context).textTheme.subtitle1,
+            style: Theme.of(context).textTheme.headline5,
           ),
         ),
         ConhecimentoText(text: 'Flutter, Dart'),
@@ -46,7 +46,7 @@ class ConhecimentoText extends StatelessWidget {
       child: Row(children: [
         SvgPicture.asset('assets/icons/check.svg'),
         SizedBox(width: defaultPadding / 2),
-        Text(text),
+        Text(text, style: TextStyle(fontSize: 18),),
       ]),
     );
   }

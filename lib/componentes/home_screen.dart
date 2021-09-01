@@ -44,11 +44,12 @@ class HomeScreen extends StatelessWidget {
                   Spacer(),
                   IconButton(
                     onPressed: () => _launchLink('https://www.linkedin.com/in/thiagotj/'),
-                    icon: SvgPicture.asset('assets/icons/linkedin.svg'),
+                    icon: SvgPicture.asset('assets/icons/linkedin.svg', height: 30,),
                   ),
+                  Spacer(),
                   IconButton(
                     onPressed: () => _launchLink('https://github.com/ThiagoTJ'),
-                    icon: SvgPicture.asset('assets/icons/github.svg'),
+                    icon: SvgPicture.asset('assets/icons/github.svg', height: 30,),
                   ),
                   Spacer(),
                 ]),

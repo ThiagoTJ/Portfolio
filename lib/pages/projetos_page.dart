@@ -32,14 +32,14 @@ class CardsProjetos extends StatelessWidget {
         ),
         Divider(),
         Container(
-          height: 100,
+          height: 200,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
                 projetos.text!,
                 textAlign: TextAlign.justify,
-                style: TextStyle(fontSize: 18),
+                style: TextStyle(fontSize: 20),
               ),
             ],
           ),

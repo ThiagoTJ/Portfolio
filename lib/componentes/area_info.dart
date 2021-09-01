@@ -19,9 +19,9 @@ class AreaInfo extends StatelessWidget {
         children: [
           Text(
             title!,
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(color: Colors.white, fontSize: 18),
           ),
-        Text(text!),
+        Text(text!, style: TextStyle(fontSize: 18),),
       ]),
     );
   }
